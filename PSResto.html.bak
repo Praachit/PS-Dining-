@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>K Spice</title>
+	<style>
+		header
+		{
+		height: 160px;
+		background-color: #89939E;
+		text-align: center;
+		color: white;
+		font-family: Lucida Handwriting;
+		font-size: 40px;
+		font-weight: bold;
+		}
+		footer
+		{
+		height: 70px;
+		background-color: #89939E;
+		text-align: center;
+		color: white;
+		font-family: Arial;
+		font-size: 20px;
+		}
+		table th,td
+		{
+			border: 0;
+			border-color: #89939E;	
+		}
+		
+		.tdhw
+		{
+			width: 1000px;
+		}
+		.headerfont
+		{
+		font-family: Arial;
+		font-size: 20px;
+		font-weight: normal;
+		color: white;
+		}
+		.sectionfont
+		{
+		font-size: 20px;
+		font-weight: normal;
+		color: gray;
+		font-family: Courier;
+		text-align: left;
+		}
+		.containtfont
+		{
+		font-size: 20px;
+		font-weight: normal;
+		color: gray;
+		font-family: Courier;
+		text-align: center;
+		}
+		.fontf
+		{
+		font-size: 15px;
+		font-weight: normal;
+		color: white;
+		font-family: Courier;
+		text-align: center;
+		}
+		a
+		{
+		color: #92b0c8;
+		}
+		
+		.wrap 
+		{
+		width: 100%;
+		overflow:auto;
+		}
+		.fleft 
+		{
+		float:left; 
+		width: 55%;
+		background:white;
+		height: 1200px;
+		font-size: 20px;
+		font-weight: normal;
+		}
+		.fcenter
+		{
+		float:left;
+		width: 33%;
+		background:white;
+		height:1200px;
+		margin-left:0.25%;
+		font-size: 20px;
+		font-weight: normal;
+		}	
+		.fright 
+		{
+		float: right;
+		background:white;
+		height: 1200px;
+		width: 45%; 
+		font-size: 20px;
+		font-weight: normal;		
+		}
+	</style>
+</head>
+<body>
+	<header id="header">
+		<table>
+			<tr>
+				<td rowspan = 4>
+					<img src="PS Dinnig.jpg" width="250" height= "150">
+				</td>
+			</tr>
+			<tr>
+				<td class="tdhw">
+					K Spice
+				</td>
+			</tr>	
+			<tr>
+				<td class="tdhw">
+					<div class="headerfont">
+						<a href="https://www.google.com/">About Us </a>&nbsp;&nbsp;
+						<a href='#footer'>Contact Us</a>
+					<div>
+				</td>
+			</tr>
+		<table>
+	</header>
+	
+	<!--<div>
+		<video controls width="1020" height="420s" autoplay muted>
+		<source src="Promo.mp4" type="video/mp4">
+		<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+	</div>-->
+	
+	<div class="wrap">
+		<div class="fleft">
+			<video controls width="620" height="420s" autoplay muted loop>
+			<source src="Promo.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+			</video>
+			<!--<img src="Biryani.jpg" width="350" height= "350">-->
+			<br><br><br><br>
+			<div class="sectionfont">
+			We take pride in sourcing the freshest, highest quality ingredients <br>
+			to create dishes that not only satisfy your hunger but elevate your <br>
+			dining experience. From farm-to-table vegetables to succulent meats,<br>
+			every dish is a celebration of flavors, textures, and creativity.
+			</div>
+		</div>
+		<!--<div class="fcenter">Center</div>-->
+		<div class="fright">
+			<div class="sectionfont">
+			<br><br><br><br><br><br>
+			At PS Dining, we believe in the magic of a great meal. Our chefs are passionate about crafting 
+			unforgettable experiences through the art of cooking. Step into a world where flavors dance on 
+			your palate, and each bite tells a story.
+			</div>
+			<br><br><br><br>
+			<img src="Ingrediants.jpg" width="450" height= "400">
+		</div>
+	</div>
+	
+	<div class="containtfont">
+		Come, savor the extraordinary at K Spice. We look forward to welcoming you soon!
+		<br><br><br>
+	</div>
+	
+	<footer id="footer">
+		<div class="fontf">
+			P&T Colony Rd, P&T Colony, Nandivali Panchanand, Dombivli East, Dombivli, Maharashtra 421201 ©<br>
+			<a href='#header'>Home</a>
+		</div>
+	</footer>
+</body>
